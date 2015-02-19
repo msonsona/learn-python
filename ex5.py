@@ -8,12 +8,12 @@ hair = 'Black'
 cm_per_inch = 2.54
 lbs_per_kilo = 2.205
 
-print "Let's talk about %s." % name
-print "He's %d centimeters tall. That's %d inches." % (height, height / cm_per_inch)
+print "Let's talk about %r." % name
+print "He's %d centimeters tall. That's %r inches." % (height, height / cm_per_inch)
 print "He's %d kilos heavy. That's %d pounds." % (weight, weight * lbs_per_kilo)
 print "Actually that's not too heavy."
-print "He's got %s eyes and %s hair." % (eyes, hair)
+print "He's got %s eyes and %r hair." % (eyes, hair)
 print "His teeth are usually %s depending on the coffee." % teeth
 
 # this line is tricky, try to get it exactly right
-print "If I add %d, %d, and %d I get %d." % (age, height, weight, age + height + weight)
+print "If I add %d, %d, and %d I get %r." % (age, height, weight, age + height + weight)
