@@ -1,8 +1,13 @@
+# Print a string
 print "Mary had a little lamb."
+# Print a string with a formatted string
 print "Its fleece was white as %s." % 'snow'
+# Print another string
 print "And everywhere that Mary went."
+# Print a string 10 times
 print "." * 10 # what'd that do?
 
+# Assign strings to variables
 end1 = "C"
 end2 = "h"
 end3 = "e"
@@ -17,5 +22,7 @@ end11 = "e"
 end12 = "r"
 
 # watch that comma at the end. try removing it to see what happens
-print end1 + end2 + end3 + end4 + end5 + end6,
+# With the comma, it will print the second concatenation of variables
+# in the same line than the first
+print end1 + end2 + end3 + end4 + end5 + end6
 print end7 + end8 + end9 + end10 + end11 + end12
