@@ -14,9 +14,5 @@ print persian_cat
 print backslash_cat
 print fat_cat
 
-ascii_bell = "I'll ring a bell\a"
-print ascii_bell
-
-while True:
-    for i in ["/","-","|","\\","|"]:
-        print "%s\r" % i,
+print "We have 3 cats: %s, %s and %s" % (tabby_cat, persian_cat, backslash_cat)
+print "We have 3 cats: %r, %r and %r" % (tabby_cat, persian_cat, backslash_cat)
