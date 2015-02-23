@@ -16,3 +16,7 @@ print fat_cat
 
 ascii_bell = "I'll ring a bell\a"
 print ascii_bell
+
+while True:
+    for i in ["/","-","|","\\","|"]:
+        print "%s\r" % i,
