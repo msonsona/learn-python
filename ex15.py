@@ -12,6 +12,9 @@ print "Here's your file %r:" % filename
 # Print the contents of the specified file, using read() function
 print txt.read()
 
+# Closing file txt
+txt.close()
+
 # Prompting the user
 print "Type the filename again:"
 # Read the input from the user
@@ -22,3 +25,6 @@ txt_again = open(file_again)
 
 # Print the file's contents
 print txt_again.read()
+
+# Closing file txt_again
+txt_again.close()
