@@ -28,3 +28,5 @@ custom_number = number_to_call / catalan_emergency_number
 call_this_number(custom_number)
 
 call_this_number(fake_number_generator())
+
+call_this_number(int(raw_input("Which number do you want to call? ")))
