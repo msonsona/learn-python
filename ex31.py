@@ -7,6 +7,7 @@ if door == "1":
     print "1. Take the cake."
     print "2. Scream at the bear."
     print "3. Dance with the bear."
+    print "4. Jump through a door behind the bear."
     
     bear = raw_input("> ")
     
@@ -16,6 +17,16 @@ if door == "1":
         print "The bear eats your legs off. Good job!"
     elif bear == "3":
         print "The bear is so pleased that after a while, it just goes away."
+    elif bear == "4":
+        print "You enter a small room with a computer. A prompt asks you to type a number"
+        number = int(raw_input("> "))
+        
+        if number < 10:
+            print "A trap beneath you opens after %s seconds. Good bye!" % number
+        elif 10 < number < 20:
+            print "%s hungry wolves enter the room... Good bye!" % number
+        else:
+            print "Oh, you're so lucky! Good job!"
     else:
         print "Well, doing %s is probably better. Bear runs away." % bear
 
