@@ -29,3 +29,7 @@ print "Here is a puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print "That becomes: ", what, "Can you do it by hand?"
+
+# 24 + 34 / 100 - 1023
+new_result = divide(add(24, 34), subtract(100, 1023));
+print "The result for 24 + 34 / 100 - 1023 is %f" % new_result
