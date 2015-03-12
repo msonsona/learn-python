@@ -1,9 +1,9 @@
-def my_range(number):
+def my_range(number, step):
     numbers = []
     
     for i in range(0, number):
         print "At the top i is %d" % i
-        numbers.append(i)
+        numbers.append(i * step)
         
         print "Numbers now: ", numbers
         print "At the botton i is %d" % i
@@ -15,6 +15,6 @@ def my_range(number):
     
     return numbers
 
-numbers_1 = my_range(5)
-numbers_2 = my_range(10)
-numbers_3 = my_range(50)
+numbers_1 = my_range(5, 1)
+numbers_2 = my_range(10, 2)
+numbers_3 = my_range(50, 5)
